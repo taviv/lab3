@@ -9,6 +9,16 @@
 	color: #CC00AA;
 }
 
+h1{
+  font-family: "Anton";
+  font-size: 80px;
+}
+
+h2{
+  font-family: "Viga";
+  font-size: 80px;
+}
+
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
@@ -39,4 +49,8 @@ body {
 
 .project a {
      text-align: center;
+}
+
+.jumbotron p.active {
+     color: #1f6ddd;
 }
