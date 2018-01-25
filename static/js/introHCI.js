@@ -33,8 +33,6 @@ function projectClick(e) { 
     if (description.length == 0) {
        $(containingProject).append("<div class='project-description'><p>Description of the project.</p></div>");
     } else {
-        $(containingProject).fadeOut();
-        $(containingProject).fadeOut("slow");
-//       description.html("<p>Stop clicking on me! You just did it at " + (new Date()) + "</p>");
+      description.fadeOut(); 
     }
 }
